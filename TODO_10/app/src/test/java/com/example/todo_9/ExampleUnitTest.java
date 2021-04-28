@@ -26,7 +26,7 @@ public class ExampleUnitTest {
     public void setUp(){
         mCalculator = new calculator();
     }
-
+    
     @Test
     public void addTwoNumber(){
         double result = mCalculator.add(1d,2d);
