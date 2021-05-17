@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/sport_img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"/>
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Title"
+                android:layout_alignBottom="@+id/sport_img"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="2dp" />
+
+            <TextView
+                android:id="@+id/newsTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="News"
+                android:layout_below="@+id/sport_img"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="71dp" />
+
+            <TextView
+                android:id="@+id/subTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Here are some news"
+                android:layout_below="@id/newsTitle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="110dp" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
