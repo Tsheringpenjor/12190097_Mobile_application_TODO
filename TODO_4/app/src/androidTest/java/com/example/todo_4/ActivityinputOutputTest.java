@@ -27,6 +27,8 @@ import static org.junit.Assert.*;
 @RunWith(AndroidJUnit4.class)
 public class ActivityinputOutputTest {
 
+
+
     @Rule
     public ActivityTestRule mActivityRule = new ActivityTestRule<>(MainActivity.class);
 
